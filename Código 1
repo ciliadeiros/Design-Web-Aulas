@@ -1,0 +1,24 @@
+# Faça um programa que pede um nome e, com isso, realize as seguintes operações:
+# 1- Informe o número de letras
+# 2- Armazenar e exibir as letras em forma de uma lista
+# 3- Armazenar e exibir as letras em forma de uma tupla
+
+
+lista = []
+tupla = () # Tupla é imutável e está sempre em parênteses
+nome = input('Digite um nome: ')
+num_letras = len(nome)
+for letra in nome:
+    lista.append(letra)
+    tupla = tuple(lista) # Tranforma "lista" em uma tupla e armazena na variável "tupla"
+
+print(f'\nEssa palavra tem {num_letras} letras.')
+print('\nLista de letras:')
+print(lista)
+print('\nTupla com as letras:')
+print(tupla)
+
+# Uma forma de otimizar o código
+
+lista = list(nome)
+print(lista)
