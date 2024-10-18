@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="styles2.css">
+</head>
+<body>
+
+    <div class="container">
+        <h1>Combinadores</h1>
+        <a href="">Vídeo 01</a>
+        <p><strong>Definição:</strong>Lorem ipsum dolor sit amet consectetur adipisicing elit. Perferendis qui cum culpa excepturi. Sed sit modi quisquam, sint expedita adipisci excepturi est necessitatibus maxime architecto possimus? Commodi dolorum eos at!</p>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptate minus accusamus iusto aperiam recusandae cum reprehenderit id aliquid necessitatibus laboriosam libero tenetur illum nostrum aut, repudiandae quaerat. Porro, repellat odit!</p>
+        <a href="">Referência</a>
+    </div>
+
+    <div class="container">
+        <h1>Combinadores</h1>
+        <a href="">Vídeo 02</a>
+        <p><strong>Definição:</strong>Lorem ipsum dolor sit amet consectetur adipisicing elit. Perferendis qui cum culpa excepturi. Sed sit modi quisquam, sint expedita adipisci excepturi est necessitatibus maxime architecto possimus? Commodi dolorum eos at!</p>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptate minus accusamus iusto aperiam recusandae cum reprehenderit id aliquid necessitatibus laboriosam libero tenetur illum nostrum aut, repudiandae quaerat. Porro, repellat odit!</p>
+        <a href="">Referência</a>
+    </div>
+
+    <a href="" class="link-revisao">Eu também sou um elemento!</a> <!-- Está a nível 'in line'; só ocupa o espaço necessário-->
+</body>
+</html>
