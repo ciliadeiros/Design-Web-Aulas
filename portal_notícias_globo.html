@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Exemplo de Full Screen</title>
+    <style>
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    border: 0;}
+
+body, html {
+    height: 100vh;    }
+
+.container {
+    display: flex;
+    height: 100%;
+    justify-content: center;
+    align-items: center;}
+
+.card {
+    display: flex;
+    flex-flow: column nowrap;
+    width: 350px;
+    border: 1px solid rgb(219, 219, 219);
+    border-radius: 15px;}
+
+.news {
+    padding: 20px 0;}
+
+.header {
+    border-bottom: 1px solid rgb(219, 219, 219);;
+    font-weight: bolder;
+    font-size: large;
+    color: rgb(52, 52, 52);
+    padding: 20px 20px;}
+
+.news {
+    display: flex;
+    align-items: center;
+    gap: 15px;}
+
+.news {
+    border-bottom: 1px solid rgb(219, 219, 219);
+    margin: 0 20px;}
+
+.news:last-of-type {
+    border: 0;}
+
+.text {
+    flex: 1;
+    color: rgb(177, 0, 0);
+    font-weight: bolder;
+    font-size: large;}
+
+.text:hover {    
+    color: rgb(131, 0, 0);
+    cursor: pointer;}
+
+.order {
+    font-size:x-large;
+    color: rgb(181, 181, 181);;}
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="card">
+            <div class="header">
+                Mais lidas
+            </div>
+            <div class="content">
+                <div class="news">
+                    <div class="order">1</div>
+                    <div class="text">PIX terá novas regras a partir deste 1° de novembro; veja o que muda</div>
+                </div>               
+                <div class="news">
+                    <div class="order">2</div>
+                    <div class="text">Imagens registradas por técnico de enfermagem suspeito de abusar de pacientes em UPA de Curitiba podem indicar mais vítimas em outros hospitais</div>
+                </div>               
+                <div class="news">
+                    <div class="order">3</div>
+                    <div class="text">Polícia e MP fazem operação para tentar prender 6 palmeirenses da Mancha Alviverde e apreedem computadores na sede da torcida</div>
+                </div>               
+                <div class="news">
+                    <div class="order">4</div>
+                    <div class="text">Mulher de Poze do Rodo é alvo de operação contra sorteios ilegais</div>
+                </div>               
+                <div class="news">
+                    <div class="order">5</div>
+                    <div class="text">Carro vendido por Ferreirinha, jogador do São Paulo FC, vira caso de polícia após golpe</div>
+                </div>               
+            </div>
+        </div>
+
+    </div>
+</body>
+</html>
