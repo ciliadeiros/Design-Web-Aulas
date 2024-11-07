@@ -1,0 +1,27 @@
+* {box-sizing: border-box;
+    margin: 0;
+    border: 0;
+    padding: 0;
+}
+
+body {height: 100vh;}
+
+.header {
+    position: fixed; /* Fica fixado */
+    /* Quando um elemento é alterado para a propriedade de fixed, sticky e etc, ele sai do seu fluxo normal*/
+    top: 0; /* Indica as coordenadas que o header deve ficar. Dessa forma, ele ficará no topo e no início da página */
+    background-color: beige;
+    height: 100px;
+    width: 100%;
+    text-align: center;
+}
+
+.container {
+    height: 100%;
+    padding-top: 100px;
+}
+
+.content {
+    height: 100%;
+    background-color: darkgray;
+}

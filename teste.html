@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .caixa {
+            box-sizing: border-box; /* Faz com que o tamanho total do elemento
+            (incluindo bordas e preenchimento) será o valor de width e height.*/
+            margin: 0; /* Remove o espaçamento da margem*/
+            width: 400px; /* Largura de 400 pixels */
+            height: 100px; /* Altura de 100 pixels */
+            border: 10px solid rgb(5, 79, 5); /* Borda de 10 pixels de expes-
+            sura, sólida e da cor verde escuro */
+            background-color: lightgreen; /* Cor de fundo verde claro */
+            text-align: center; /* Alinhamento do texto ao centro */
+        }
+    </style>
+</head>
+<body>
+    <div class="caixa">
+        <h1>Está é uma Box (caixa)</h1>
+    </div>
+
+    <div style="display: block; background-color: lightblue;">
+        Este é um elemento block
+    </div>
+    <p style="display: block; background-color: lightgreen;">
+        Este é outro elemento block
+    </p>
+    
+    <span style="display: inline; background-color: lightblue;">
+        Este é um elemento inline
+    </span>
+    <a style="display: inline; background-color: lightgreen;">
+        Outro elemento inline
+    </a>
+</body>
+</html>
